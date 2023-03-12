@@ -12,6 +12,7 @@ class Var(object):
     MULTI_CLIENT = True
     API_ID = int(environ.get("API_ID", "15823382"))
     API_HASH = str(environ.get("API_HASH", "016d5e115a06ddfb6121823d72ae4d8c"))
+    BOT_TOKEN = str(environ.get("BOT_TOKEN", "5606869491:AAHJbj5U_fEbYmODiezZsqWP5lIWSJalQ6Y"))
     MULTI_TOKEN1 = str(environ.get("MULTI_TOKEN1", "5499850853:AAF1saxsT9Q46H7zGs90asuTpAqND5qDgnI"))
     MULTI_TOKEN2 = str(environ.get("MULTI_TOKEN2", "6213184839:AAGDu5TrR6ZiUPB9n82e6z_Anb_b6gMr_mA"))
     SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))  # 1 minte
